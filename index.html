@@ -34,6 +34,7 @@
 </head>
 
 <body>
+
     <div class="container">
         <header>
             <p>Live Responsive website</p>
@@ -64,10 +65,11 @@
                     </div>
                     <div id="box2" class="image-Box"></div>
                     <div id="box3" class="image-Box">
-                        <a href="screenshot.png">
+                        <!-- <a href="screenshot.png">
                             <img src="Untitled.png" width="195" height="210" alt="">
-                        </a>
+                        </a> -->
                     </div>
+
                     <div class="image-Box">Image</div>
                     <div class="image-Box last-two1">Image</div>
                     <div class="image-Box last-two1">Image</div>
@@ -94,6 +96,21 @@
             &copy; prashant kumar.<time>Update on 05-07-2022</time>
         </footer>
     </div>
+
+
+
+    <script>
+        var Box3 = document.getElementById('box3');
+        var Img = document.getElementById('hello');
+        // Box3.onmouseover = function() {
+        //     window.open("./page/image.html");
+
+
+        // }
+        Box3.onclick = function() {
+            window.open("./page/image.html");
+        }
+    </script>
 </body>
 
 </html>
